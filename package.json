@@ -1,0 +1,32 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-weather-middleware.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "nock": "^9.0.13",
+    "request": "^2.81.0",
+    "request-ip": "^2.0.2",
+    "request-promise": "^4.2.1",
+    "sinon": "^2.3.6",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "husky": "^0.14.1",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
