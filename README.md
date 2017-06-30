@@ -22,6 +22,12 @@ Sign-up, then add `DARKSKY_KEY=<key>` to a file named `.env` in the root of this
 
 ## Libraries of interest
 
+### Husky:
+
+* 'Git hooks made easy'
+
+https://github.com/typicode/husky
+
 ### Nock:
 
 * For stubbing requests to 3rd party APIs
