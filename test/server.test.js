@@ -63,6 +63,3 @@ describe('server.js', ()=>{
 
 
 
-/*
-{"time":1498847783,"summary":"Partly Cloudy","icon":"partly-cloudy-day","nearestStormDistance":607,"nearestStormBearing":180,"precipIntensity":0,"precipProbability":0,"temperature":74.5,"apparentTemperature":74.5,"dewPoint":58.15,"humidity":0.57,"windSpeed":3.22,"windGust":3.92,"windBearing":346,"visibility":10,"cloudCover":0.43,"pressure":1016.9,"ozone":310.78,"uvIndex":5}
-*/
